@@ -6,3 +6,10 @@ edition = "2024"
 [dependencies]
 nom = "7"
 bytes = "1"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "parser_bench"
+harness = false

@@ -3,7 +3,6 @@ use bytes::Bytes;
 use nom::{
     bytes::complete::tag,
     number::complete::{be_u8, be_u16},
-    sequence::tuple,
     IResult,
 };
 

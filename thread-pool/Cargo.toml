@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# Provides the Worker, Stealer, and Injector queues
+crossbeam-deque = "0.8" 
+# Provides thread utilities
+crossbeam-utils = "0.8"
